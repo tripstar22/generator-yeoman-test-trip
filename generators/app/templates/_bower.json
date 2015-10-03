@@ -2,9 +2,10 @@
   "name": "yeoman-test-trip",
   "version": "0.1.0",
   "dependencies": {
-    "bootstrap-sass": "~3.2.0",
     "FitText.js": "~1.2",
-    "jquery.ui": "~1.11.4"
+    "jquery.ui": "~1.11.4",
+    "bootstrap": "~3.3.5",
+    "masonry": "~3.3.0"
   }
 }
 
