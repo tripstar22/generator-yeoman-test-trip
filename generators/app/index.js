@@ -42,12 +42,12 @@ module.exports = yeoman.generators.Base.extend({
         this.destinationPath('_html')
       );
       this.fs.copy(
-        this.templatePath('_src'),
-        this.destinationPath('_src')
+        this.templatePath('src'),
+        this.destinationPath('src')
       );
       this.fs.copy(
-        this.templatePath('_dist'),
-        this.destinationPath('_dist')
+        this.templatePath('dist'),
+        this.destinationPath('dist')
       );
     },
 
