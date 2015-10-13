@@ -54,8 +54,6 @@ gulp.task('watch', function() {
     gulp.watch('src/scss/**/*.scss', ['styles']);
     gulp.watch('src/js/*.js', ['scripts']);
     gulp.watch('src/img/*', ['images']);
-    // and watch for changes in html
-    gulp.watch('_html/*.html');
 });
 
 // gulp runs all your tasks
