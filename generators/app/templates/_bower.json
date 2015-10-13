@@ -2,10 +2,7 @@
   "name": "yeoman-test-trip",
   "version": "0.1.0",
   "dependencies": {
-    "FitText.js": "~1.2",
-    "bootstrap-sass": "~3.3.5",
-    "prism": "~1.1.0",
-    "fullpage.js": "~2.7.4"
+
   }
 }
 

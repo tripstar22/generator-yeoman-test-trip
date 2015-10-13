@@ -38,6 +38,10 @@ module.exports = yeoman.generators.Base.extend({
         this.destinationPath('bower.json')
       );
       this.fs.copy(
+        this.templatePath('.bowerrc'),
+        this.destinationPath('.bowerrc')
+      );
+      this.fs.copy(
         this.templatePath('_html'),
         this.destinationPath('_html')
       );
