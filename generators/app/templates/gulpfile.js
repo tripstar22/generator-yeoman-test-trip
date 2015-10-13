@@ -11,6 +11,7 @@ var gulp = require('gulp'),
 // compile
 // compress
 // autoprefix
+// rename with .min
 gulp.task('styles', function() {
     gulp.src('src/scss/**/*.scss')
         .pipe(plumber())
@@ -23,6 +24,7 @@ gulp.task('styles', function() {
 
 // custom scripts task
 // uglifies
+// rename with .min
 gulp.task('scripts', function() {
     gulp.src('src/js/*.js')
         .pipe(plumber())
@@ -52,6 +54,8 @@ gulp.task('watch', function() {
     gulp.watch('src/scss/**/*.scss', ['styles']);
     gulp.watch('src/js/*.js', ['scripts']);
     gulp.watch('src/img/*', ['images']);
+    // and watch for changes in html
+    gulp.watch('_html/*.html');
 });
 
 // gulp runs all your tasks
